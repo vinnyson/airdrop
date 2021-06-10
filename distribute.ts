@@ -4,14 +4,14 @@ import * as fs from 'fs';
 import util from 'util';
 import {load} from 'ts-dotenv';
 
-const env = load({
-    AIRDROP_PRIVATE_KEY: String,
-    DISTRIBUTION_FILE: String,
-    NODE_URL: String,
-    TOKEN_CONTRACT: String,
-    TOKEN_NAME: String,
-    TOKEN_ID: Number,
-});
+// const env = load({
+//     AIRDROP_PRIVATE_KEY: String,
+//     DISTRIBUTION_FILE: String,
+//     NODE_URL: String,
+//     TOKEN_CONTRACT: String,
+//     TOKEN_NAME: String,
+//     TOKEN_ID: Number,
+// });
 
 const distributionFile = 'airdrop.csv'
 const nodeUrl = 'https://mainnet-tezos.giganode.io'
